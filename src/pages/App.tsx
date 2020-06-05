@@ -1,12 +1,11 @@
 import React from "react";
 // components
-import Form from "../components/Form";
+import SyncList from "../components/SyncList";
 
 function App() {
   return (
     <div>
-      <p>sjhjkdh</p>
-      <Form />
+      <SyncList />
     </div>
   );
 }

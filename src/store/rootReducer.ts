@@ -1,4 +1,6 @@
 import { combineReducers } from "redux";
-import data from "../store/reducers/data";
+import sync from "./reducers/syncList";
 
-export const rootReducer = combineReducers({ data });
+export const rootReducer = combineReducers({ sync });
+
+export type RootState = ReturnType<typeof rootReducer>;
